@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../components/header/Header';
 import Intro from '../components/intro/Intro';
 import Stack from '../components/stack/Stack';
+import Experience from '../components/experience/Experience';
 
 
 
@@ -16,6 +17,7 @@ class Resume extends Component {
           <Header />
           <Intro />
           <Stack />
+          <Experience />
         </>
       );
     }
