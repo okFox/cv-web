@@ -6,22 +6,28 @@ div[class=projectWrapper] {
     width: 100%;
     height: 100%;
     grid-template-areas: "nav nav"
-                         "box box"
                          "box box";
-    grid-template-rows: 30% 35% 35%;
+    grid-template-rows: 20% 80%;
     grid-template-columns: 50% 50%;
     grid-gap: 10px;
 
     div[class=projectNav] {
         grid-area: nav;
-        margin: 10px;
+        margin: auto;
+
 
     }
-    div[class=projectBox] {
-        grid-area: box;
+    div[class=projectBox] ul  {
+        grid-area: box;    
+    }
+    ul {
         display: flex;
-        flex-wrap: wrap;
-        
+        justify-content: right;
+        list-style: none;
+
+    }
+    li {
+        margin: 25px;
     }
     button {
     }

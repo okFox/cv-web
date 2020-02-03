@@ -11,7 +11,13 @@ const Projects = ({ projects }) => {
   return (
     <>
       <div className="projectWrapper">
-        <ul>{projectList}</ul>
+        <div className="projectNav">
+          <h2>Projects</h2>
+          <button>Team</button><button>Solo</button>
+        </div>
+        <div className="projectBox">
+          <ul>{projectList}</ul>
+        </div>
       </div>
     </>
   );
