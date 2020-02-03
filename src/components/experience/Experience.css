@@ -1,4 +1,5 @@
 div[class=experience] {
+    grid-area: xp;
     font-family: sans-serif;
     display: grid;
     width: 100%;

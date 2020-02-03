@@ -1,0 +1,12 @@
+.resumeWrapper {
+    font-family: sans-serif;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: "head head"
+                         "intro intro"
+                         "stack proj"
+                         "xp xp";
+    grid-template-rows: 10% 10% 50% 40%;
+    grid-template-columns: 20% 80%;
+}

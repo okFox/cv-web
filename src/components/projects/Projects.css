@@ -1,4 +1,6 @@
 div[class=projectWrapper] {
+    grid-area: proj;
+    background-color: lightpink;
     font-family: sans-serif;
     display: grid;
     width: 100%;
@@ -6,12 +8,13 @@ div[class=projectWrapper] {
     grid-template-areas: "nav nav"
                          "box box"
                          "box box";
-    grid-template-rows: 20% 40% 40%;
+    grid-template-rows: 30% 35% 35%;
     grid-template-columns: 50% 50%;
     grid-gap: 10px;
 
     div[class=projectNav] {
         grid-area: nav;
+        margin: 10px;
 
     }
     div[class=projectBox] {
@@ -19,5 +22,7 @@ div[class=projectWrapper] {
         display: flex;
         flex-wrap: wrap;
         
+    }
+    button {
     }
 }

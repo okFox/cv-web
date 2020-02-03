@@ -4,9 +4,7 @@ import Intro from '../components/intro/Intro';
 import Stack from '../components/stack/Stack';
 import Experience from '../components/experience/Experience';
 import Projects from '../components/projects/Projects';
-
-
-
+import styles from './Resume.css';
 
 class Resume extends Component {
     state = {
@@ -15,11 +13,13 @@ class Resume extends Component {
     render() {
       return (
         <>
-          <Header />
-          <Intro />
-          <Stack />
-          <Projects />
-          <Experience />
+          <div className={styles.resumeWrapper}>
+            <Header className={styles.headerBox} />
+            <Intro className={styles.introBox} />
+            <Stack className={styles.stackBox} />
+            <Projects className={styles.projectsBox} />
+            <Experience className={styles.xpBox} />
+          </div>
         </>
       );
     }

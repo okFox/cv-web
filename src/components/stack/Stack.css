@@ -1,4 +1,5 @@
 section {
+    grid-area: stack;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: lightcoral;
     h2 {
