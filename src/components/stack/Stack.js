@@ -1,23 +1,31 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Stack.css';
+import PropTypes from 'prop-types';
 
-class Stack extends Component {
-  render() {
-    return (
-      <>
-        <section>
-          <h2>Tech Stack</h2>
-          <ul>
-            <li>React</li> 
-            <li>Humans</li>
-            <li>Computers</li>
-          </ul>
-        </section>
-      </>
+
+const Stack = ({ stack }) => {  
+  const stackList = stack.map((stack, i) => (
+    <li key={i}>{stack}</li>
+  ));
+
+
+  return (
+    <>
+      <section>
+        <h2>Tech Stack</h2>
+        <ul>
+          {stackList}
+        </ul>
+      </section>
+    </>
       
-    );
-  }
-}
+  );
+};
+
+Stack.propTypes = {
+  stack: PropTypes.array.isRequired
+};
+
 
 export default Stack;
 

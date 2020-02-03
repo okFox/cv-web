@@ -1,3 +1,19 @@
 {
-    "text": "this is my intro paragraph telling everyone how amazingly awesome I think I am."
+  "header": {
+    "name": "Sarah Mayfield",
+    "socials": {
+      "website": "http://www.sarahmayfield.com",
+      "github": "https://github.com/okfox",
+      "linkedIn": "https://www.linkedin.com/in/sarah-mayfield/",
+      "twitter": "https://twitter.com/smayx"
+    }
+  },
+    "intro": "this is my intro paragraph telling everyone how amazingly awesome I think I am.",
+    "stack": ["HTML5", "CSS3", "Javascript", "React", "PostGreSQL", "MongoDB", "TDD"],
+    "projects": ["Minesweeper 2.0", "NagMe", "KNOW Oncology"],
+    "experience": {
+      "music": ["Production", "Promotion", "Performance"],
+      "other": "Film Production",
+      "life": "Travel"
+    }
   }
