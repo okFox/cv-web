@@ -1,0 +1,6 @@
+header {
+    grid-area: head;
+    background-color: cornflowerblue;
+    font-family: sans-serif;
+    font-size: xx-small;
+}

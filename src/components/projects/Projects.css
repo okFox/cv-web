@@ -1,0 +1,34 @@
+div[class=projectWrapper] {
+    grid-area: proj;
+    background-color: lightpink;
+    font-family: sans-serif;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "nav nav"
+                         "box box";
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+
+    div[class=projectNav] {
+        grid-area: nav;
+        margin: auto;
+
+
+    }
+    div[class=projectBox] ul  {
+        grid-area: box;    
+    }
+    ul {
+        display: flex;
+        justify-content: right;
+        list-style: none;
+
+    }
+    li {
+        margin: 25px;
+    }
+    button {
+    }
+}

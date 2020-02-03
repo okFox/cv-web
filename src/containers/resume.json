@@ -1,0 +1,35 @@
+{
+    "name": "Sarah Mayfield",
+    "socials": [
+      "http://www.sarahmayfield.com",
+      "https://github.com/okfox",
+      "https://www.linkedin.com/in/sarah-mayfield/",
+      "https://twitter.com/smayx"
+    ],
+    "intro": "this is my intro paragraph telling everyone how amazingly awesome I think I am.",
+    "stack": ["HTML5", "CSS3", "Javascript", "React", "PostGreSQL", "MongoDB", "TDD"],
+    "projects": [
+      {
+        "name": "Minesweeper 2.0",
+        "desc": "Like Minesweeper, but better!",
+        "img": "https://placekitten.com/200/140"
+      }, 
+      {
+        "name": "NagMe",
+        "desc": "The proactive reminder app",
+        "img": "https://placekitten.com/200/140"
+      }, 
+      {
+        "name": "KNOW Oncology",
+        "desc": "Get cancer quicker!",
+        "img": "https://placekitten.com/200/140"
+      }
+    ],
+    "experience": [
+      "Production", 
+      "Promotion", 
+      "Performance",
+      "Other",
+      "Life"
+    ]
+  }
