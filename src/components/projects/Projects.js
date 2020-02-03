@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from './Project';
 import './Projects.css';
+import PropTypes from 'prop-types';
 
 const Projects = () => {
 
@@ -21,5 +22,8 @@ const Projects = () => {
     </>
   );
 };
-
+Projects.propTypes = {
+  socials: PropTypes.array.isRequired,
+  name: PropTypes.string.isRequired
+};
 export default Projects;

@@ -5,13 +5,13 @@ import Stack from '../components/stack/Stack';
 import Experience from '../components/experience/Experience';
 import Projects from '../components/projects/Projects';
 import styles from './Resume.css';
-import { resume } from './resume.json';
+import resume  from './resume.json';
 
 class Resume extends Component {
     state = {
       projectSelect: 'team', //or solo for conditional rendering
-      name: resume.header.name,
-      socials: resume.header.socials,
+      name: resume.name,
+      socials: resume.socials,
       intro: resume.intro,
       stack: resume.stack,
       projects: resume.projects,
