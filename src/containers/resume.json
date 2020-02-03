@@ -8,7 +8,23 @@
     ],
     "intro": "this is my intro paragraph telling everyone how amazingly awesome I think I am.",
     "stack": ["HTML5", "CSS3", "Javascript", "React", "PostGreSQL", "MongoDB", "TDD"],
-    "projects": ["Minesweeper 2.0", "NagMe", "KNOW Oncology"],
+    "projects": [
+      {
+        "name": "Minesweeper 2.0",
+        "desc": "Like Minesweeper, but better!",
+        "img": "https://placekitten.com/200/140"
+      }, 
+      {
+        "name": "NagMe",
+        "desc": "The proactive reminder app",
+        "img": "https://placekitten.com/200/140"
+      }, 
+      {
+        "name": "KNOW Oncology",
+        "desc": "Get cancer quicker!",
+        "img": "https://placekitten.com/200/140"
+      }
+    ],
     "experience": [
       "Production", 
       "Promotion", 

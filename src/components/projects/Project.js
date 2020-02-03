@@ -1,15 +1,20 @@
 import React from 'react';
-// import kitten from 'src/components/projects/placekitten.jpeg';
+import PropTypes from 'prop-types';
 
-const Project = () => {
+
+const Project = ({ name, img, desc }) => {
   return (
     <>
-      <div className="project">
-        <img src="https://placekitten.com/200/140" />
-        <h3>Project description</h3>
-      </div>
+      <h3>{name}</h3>
+      <img src={img} />
+      <p>{desc}</p>
     </>
   );
+};
+Project.propTypes = {
+  name: PropTypes.string.isRequired,
+  desc: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired
 };
 
 export default Project;
